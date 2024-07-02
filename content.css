@@ -1,0 +1,8 @@
+/* Styles for highlighting selected elements */
+.selected {
+    border: 2px solid #007bff;
+    background-color: #e7f3ff;
+  }
+  
+  /* Additional styles if needed */
+  

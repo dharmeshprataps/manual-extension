@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Manual Booking Helper</h1>
+  </header>
+  <main>
+    <div id="step1">
+      <input type="text" id="booking-id" placeholder="Enter Booking ID">
+      <button id="fetch-details">Fetch Details</button>
+    </div>
+    <div id="step2" style="display: none;">
+      <p>Booking Details:</p>
+      <pre id="booking-details"></pre>
+      <button id="verify-details">Verify Details</button>
+    </div>
+    <div id="step3" style="display: none;">
+      <input type="text" id="final-price" placeholder="Enter Final Price">
+      <button id="generate-cc">Generate Credit Card</button>
+    </div>
+    <div id="step4" style="display: none;">
+      <p>Credit Card Details:</p>
+      <pre id="credit-card-details"></pre>
+      <input type="file" id="ticket-file">
+      <button id="upload-ticket">Upload to BMS</button>
+    </div>
+  </main>
+  <footer>
+    <a href="#" id="help-link">Help</a>
+    <a href="#" id="settings-link">Settings</a>
+    <a href="#" id="feedback-link">Feedback</a>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>
